@@ -44,7 +44,7 @@ function draw() {
 
   if(gameState===PLAY){
   background(0);
-  boy.x = World.mouseX;
+
   
   edges= createEdgeSprites();
   boy.collide(edges);
